@@ -1,0 +1,96 @@
+	
+		body {
+  font-family: Arial;
+  color: white;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: auto;
+  background-color: hsla(120,100%,25%,0.6);
+ 
+}
+
+
+
+/* Navbar links */
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+#navbar div{
+  position: absolute;
+text-align: center;
+  left: 150px;
+  
+
+}
+
+/* Page content */
+.content {
+ }
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+/*This css stle adds the color all #font_color1  */
+#font_color1{
+  color: black;
+}
+.vl1{
+  border-left: 1px solid green;
+  height: 200px;
+  position: absolute;
+  left: -1px;
+  color: #333;
+  top: 399px;
+  font-size: 10px;
+}
+.vl2{
+  border-left: 1px solid green;
+  height: 200px;
+  position: absolute;
+  left: 33.9%;
+  margin-left: -3px;
+  top: 399px;
+  color: #333; 
+  
+}
+.vl3{
+  border-left: 1px solid green;
+  height: 200px;
+  position: absolute;
+  left: 67.8%;
+  margin-left: -3px;
+  top: 399px;
+  color: #333;
+
+}
+.vl4{
+  border-bottom:1px solid green;
+  width: 100%;
+  position: absolute;
+  margin-left: -3px;
+  top: 600px;
+
+}	
+.vl5{
+  border-bottom:1px solid green;
+  width: 100%;
+  position: absolute;
+  margin-left: -3px;
+  top: 399px;
+
+}   

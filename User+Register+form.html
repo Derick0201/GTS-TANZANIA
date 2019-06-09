@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+
+        <!-- sript to check password-->
+	    <script> 
+          
+             
+            function checkPassword(form) { 
+                password= form.password.value; 
+                password-repeat = form.password-repeat.value; 
+  
+                 
+                if (password == '') 
+                    alert ("Please enter Password"); 
+                      
+                 
+                else if (password-repeat == '') 
+                    alert ("Please confirm Your password"); 
+                      
+                     
+                else if (password != password-repeat) { 
+                    alert ("\nPassword did not match: Please try again..") 
+                    return false; 
+                } 
+  
+                 
+                else{ 
+                    alert("Welcome to our Site!") 
+                    return true; 
+                } 
+            } 
+        </script> 
+
+<link rel="stylesheet" type="text/css" href="User+Register+form.css">
+</head>
+
+<!-- main body-->
+
+<body  >
+<center>
+ <form action="insert.php" method="post">
+  <div class="r" >
+    <center><h1>Register Here</h1>
+    <p>Please fill in this form to create your GKS account.</p> <br>
+    </center>
+
+
+   
+    <input type="text" placeholder="Enter Your First Name" name="First name" required size="30"><br>
+
+    
+    <input type="text" placeholder="Enter Your Last Name" name="Last name" required ><br>
+
+   
+    <input type="text" placeholder="Enter Your Username Here" name="User name" required><br>
+
+    
+    <input type="text" placeholder="Enter Your Phone Number Here" name="Phone number" required><br>
+
+
+
+    <input type="email" placeholder="Enter Your Email Here" name="email" required><br>
+
+    <input type="password" placeholder="Enter Password" name="password1" required><br>
+
+    <input type="password" placeholder="Repeat Password" name="password2" required><br>
+
+      <div class="clearfix">
+      <button type="Reset" class="cancelbtn">Reset</button>
+      <button type="submit" class="Register">Register</button>
+    </div>
+  </div>
+</form> </center>
+</body>
+
+</html>
