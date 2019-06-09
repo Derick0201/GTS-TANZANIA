@@ -1,0 +1,2 @@
+# GTS-TANZANIA
+The main objective for our project is to  provide a big room for the parents to explore  different schools. Since the site  will compose of different schools in Tanzania (A LEVEL and O LEVEL) in which each school will be detailed with stuffs like the short historical background of the school, the pictures of the school environment including the classes and the other areas around the school,contacts of a specific school so as to give a chance for parents to communicate with the school and school joining instructions.
